@@ -9,14 +9,51 @@
 </head>
 <body>
     <header>
-        <div class="">
-        <img src="my_photo.jpg" alt="my_photo" width="163" height="204" class="my_photo">
+        <div class="container">
+        <img class="my_photo" src="my_photo.jpg" alt="my_photo" width="204" height="204" >
         <h1>Evgeniya Martirosyants</h1> 
         <h2>Junior Frontend Developer</h2>
+        <nav><ul class="nav">
+          <li><a href="#About_me">About Me</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#Code_Example">Code Example</a></li>
+          <li><a href="#Education">Contacts</a></li>
+          <li><a href="#Languages">Languages</a></li></ul></nav>
+          <div class="main">
         </div>
-      </header>
+        </div>
+    </header>
+    <hr>
+      <div class="row">
+      <h3 id="About_me">About Me</h3>
+        <p>Front-end  development is the area in which I want to become a great specialist. A very multifaceted field
+            of activity that will not allow the brain to rest.</p>
+    </div>
+    <div class="row">
+      <hr>
+      <h3 id="Skills">Skills</h3>
+        <ul>
+          <li>
+              <p>SQL</p>
+          </li>
+           <li>
+              <p>Postman</p>
+          </li>
+          <li>
+              <p>Charles</p>
+          </li>
+          <li>
+               <p>DevTools</p>
+          </li>
+          <li>
+                <p>GIT</p>
+          </li>
+        </ul>
+    </div>
       <section class="contacts">
-        <h3>Contacts</h3>
+        <hr>
+        <h3 id="Contacts">Contacts</h3>
         <ul>
           <li>
             <p>Phone: +7 (928) 264-89-98</p>
@@ -28,7 +65,47 @@
             <p>Telegram: @so_awesom</p>
           </li>
         </ul>
+        <hr>
       </section>
+      <section>
+        <h3 id="Code_Example">Code Example</h3>
+        <code>
+          <p>SELECT DISTINCT Product.maker AS maker, Laptop.speed AS speed<br>
+          FROM Product<br>
+          INNER JOIN Laptop ON Laptop.model = Product.model<br>
+          WHERE hd >= 10 AND type='Laptop';</p>
+          <hr>
+        </code>
+      </section>
+      <section>
+        <h3 id="Education">Education</h3>
+        <ul>
+          <li>
+              <p>Yandex School of Data Analysis: QA Engineer</p>
+          </li>
+           <li>
+              <p>North-Caucasus Federal University: Economist</p>
+          </li>
+          <li>
+              <p>stepik.org</p>
+          </li>
+          <li>
+               <p>htmlacademy.ru</p>
+          </li>
+        </ul>
+        <hr>
+      </section>
+      <section>
+        <h3 id="Languages">Languages</h3>
+        <ul>
+          <li>
+            <p>Russian - Native</p>
+          </li>
+          <li>
+            <p>English - A1</p>
+          </li>
+        </ul>
+      </section> 
    <footer>
        <a href="https://rs.school/js/">
          <img src="https://rs.school/images/rs_school_js.svg" width="73" height="26">
